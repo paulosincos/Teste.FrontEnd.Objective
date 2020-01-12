@@ -1,5 +1,9 @@
 # Teste de Front-End Objective
 
+Autor: Paulo C. B. Sincos
+
+Contato: [paulosincos@hotmail.com](mailto:paulosincos@hotmail.com)
+
 ## Introdução
 
 Implementação do teste proposto pela Objetive, consistindo em uma busca básica de personagens.
