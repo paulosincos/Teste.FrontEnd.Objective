@@ -18,7 +18,7 @@ Para testes unitários foi utilizado [Jest](https://jestjs.io/). Para auxiliar o
 
 ### Implementações
 
-Além dos requistos do teste, em geral o código possui/demonstra as seguintes features:
+Além dos requisitos do teste, em geral o código possui/demonstra as seguintes features:
 
 - WebComponents usando JS nativo (tags prefixadas com a inicial do nome do projeto, T);
 - CSS: padrão BEM de nomeclatura, variáveis, animação, media queries, entre outros;
@@ -35,14 +35,14 @@ Pastas:
 - devServer: servidor express/node para desenvolvimento;
 - src: código fonte da aplicação com suas sub-pastas:
   - app: WebComponents em geral;
-  - imagem: Imagens;
+  - images: Imagens;
   - services: Serviços JavaScript comuns;
   - styles: CSSs gerais/globais.
 - tests: teste unitários
 
 ## Instalação e execução
 
-É necessário possuir o Node.js e o npm para instalação das dependências.
+É necessário possuir o Node.js e o npm para instalação das dependências e execução em tempo de desenvolvimento.
 
 Para instalar as dependências, execute na pasta do projeto o comando do npm:
 ```
