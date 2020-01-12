@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow-y: hidden;
+}
+
+.square-image {
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.square-image-contain {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}

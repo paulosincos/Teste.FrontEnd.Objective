@@ -1,0 +1,27 @@
+.search-box {
+  margin: 0 var(--content-side-margin) 34px var(--content-side-margin);
+}
+
+.search-box__label {
+  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--primary-color);
+}
+
+.search-box__input {
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  width: 398px;
+  height: 29px;
+}
+
+@media (max-width: 768px) {
+  .search-box {
+    margin-bottom: 12px;
+  }
+
+  .search-box__input {
+    width: 100%;
+  }
+}

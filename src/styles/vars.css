@@ -1,0 +1,10 @@
+:root {
+  --primary-color: #d42026;
+  --primary-color-op-10: #d4202619;
+  --primary-color-op-20: #d4202633;
+  --primary-color-darken: #d20a0a;
+  --primary-color-darken-op-35: #d20a0a59;
+  --dark-text-color: #4e4e4e;
+  --content-top-margin: 20px;
+  --content-side-margin: 42px;
+}

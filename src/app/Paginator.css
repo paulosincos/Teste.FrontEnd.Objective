@@ -1,0 +1,88 @@
+.paginator {
+  text-align: center;
+}
+
+.paginator_hidden {
+  visibility: hidden;
+}
+
+.paginator__arrow-left {
+  cursor: pointer;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 12px solid var(--primary-color-darken);
+}
+
+.paginator__arrow-right {
+  cursor: pointer;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid var(--primary-color-darken);
+}
+
+.paginator__arrow-left_disabled {
+  cursor: default;
+  border-right-color: var(--primary-color-darken-op-35);
+}
+
+.paginator__arrow-right_disabled {
+  cursor: default;
+  border-left-color: var(--primary-color-darken-op-35);
+}
+
+.paginator__page-numbers {
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.paginator__page-number {
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  font-size: 21px;
+  line-height: 24px;
+  border: 1px solid var(--primary-color);
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.paginator__page-number:hover {
+  background-color: var(--primary-color-op-10);
+}
+
+.paginator__page-number_active, .paginator__page-number_active:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  cursor: default;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 18px 30px 24px 30px;
+  }
+
+  .paginator__page-numbers {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .paginator__page-number {
+    display: none;
+  }
+
+  .paginator__page-number_always-show {
+    display: inline-flex;
+  }
+}

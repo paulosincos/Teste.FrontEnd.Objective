@@ -1,0 +1,4 @@
+.footer {
+  padding: 16px 0;
+  border-bottom: 12px solid var(--primary-color);
+}

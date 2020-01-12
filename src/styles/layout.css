@@ -1,0 +1,36 @@
+header {
+  grid-area: title;
+}
+
+span.author {
+  grid-area: author;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 90px auto auto;
+  grid-template-areas:
+    "title author"
+    "main main"
+    "footer footer";
+}
+
+@media (max-width: 768px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer {
+    flex: 1;
+  }
+}
